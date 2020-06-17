@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/dataAtual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/list_item_fontsize" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dataAtual"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_marginEnd="@dimen/layout_margin"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingStart="@dimen/layout_margin"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/list_item_fontsize" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:background="@color/colorPrimary" />
+</RelativeLayout>

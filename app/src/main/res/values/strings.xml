@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Cadastro de Séries</string>
+    <string name="dialogNewTitulo">Nova Series</string>
+    <string name="dialogEditTitulo">Editar Series</string>
+    <string name="hintText">Adicione sua série preferida</string>
+
+    <string name="novo">Nova série</string>
+    <string name="editar">Editar série</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="toastSeriado">Adicione um seriado preferido</string>
+
+    <string name="excluir">Excluir série</string>
+    <string name="excluirTudo">Excluir todas as séries</string>
+    <string name="tituloOpcao">Escolha uma opção</string>
+    <string name="toastErro">Erro ao carregar ação</string>
+
+
+</resources>
